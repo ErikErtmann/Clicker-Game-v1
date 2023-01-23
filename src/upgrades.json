@@ -1,0 +1,8 @@
+{
+    "upgrades":[
+        { "name": "Upgrade 1", "cost": 10 },
+        { "name": "Upgrade 2", "cost": 2000 },
+        { "name": "Upgrade 3", "cost": 10000 },
+        { "name": "Upgrade 4", "cost": 20000 }
+    ]
+}
