@@ -2,13 +2,12 @@ import { useState } from 'react';
 import upgrades from '../upgrades.json';
 
 
-
 function CashClicker() {
 
     const [cash, setCash] = useState(0);
     //cash starts at 0
     const [upgradeLevel, setUpgradeLevel] = useState(1);
-    //upgrade starts at 0
+    //upgrade starts at 1
     const [upgradesList, setUpgradesList] = useState(upgrades.upgrades.map(upgrade => ({...upgrade})));
 
   
